@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "689086789608",
+    "project_id": "mybookapp-1c01b",
+    "storage_bucket": "mybookapp-1c01b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689086789608:android:b06646fbf20cfe7c1cd65d",
+        "android_client_info": {
+          "package_name": "uz.gita.bookappumidjon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689086789608-atfvgvrhpnsjrid9pe7o2cfc5u4giqp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcHKCUbjSJmvkelJs5Nd6JIVgmkZT7uC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689086789608-atfvgvrhpnsjrid9pe7o2cfc5u4giqp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689086789608:android:ac52f83d980878351cd65d",
+        "android_client_info": {
+          "package_name": "uz.gita.bookreading_john"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689086789608-atfvgvrhpnsjrid9pe7o2cfc5u4giqp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcHKCUbjSJmvkelJs5Nd6JIVgmkZT7uC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689086789608-atfvgvrhpnsjrid9pe7o2cfc5u4giqp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689086789608:android:ae0a68f3feefd8051cd65d",
+        "android_client_info": {
+          "package_name": "uz.gita.bookreadingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689086789608-atfvgvrhpnsjrid9pe7o2cfc5u4giqp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcHKCUbjSJmvkelJs5Nd6JIVgmkZT7uC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689086789608-atfvgvrhpnsjrid9pe7o2cfc5u4giqp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BookReading" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorSecondaryContainer">@color/onPrimary</item>
+        <item name="colorOnSecondaryContainer">@color/primary</item>
+        <item name="colorOnSurfaceVariant">@color/onPrimary</item>
+
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+    <style name="Theme.BookReading" parent="Base.Theme.BookReading" />
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">12dp</item>
+    </style>
+</resources>

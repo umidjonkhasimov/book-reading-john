@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeScreen">
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="uz.gita.bookreading_john.presentation.screens.home.HomeScreen"
+        android:label="HomeScreen" >
+        <action
+            android:id="@+id/action_homeScreen_to_aboutBookScreen"
+            app:destination="@id/aboutBookScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedBooksScreen"
+        android:name="uz.gita.bookreading_john.presentation.screens.savedbooks.SavedBooksScreen"
+        android:label="SavedBooksScreen" >
+        <action
+            android:id="@+id/action_savedBooksScreen_to_aboutBookScreen"
+            app:destination="@id/aboutBookScreen" />
+        <action
+            android:id="@+id/action_savedBooksScreen_to_bookReadScreen"
+            app:destination="@id/bookReadScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookReadScreen"
+        android:name="uz.gita.bookreading_john.presentation.screens.bookread.BookReadScreen"
+        android:label="BookReadScreen" >
+        <argument
+            android:name="bookName"
+            app:argType="string" />
+        <argument
+            android:name="savedPage"
+            app:argType="integer" />
+        <argument
+            android:name="totalPage"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutBookScreen"
+        android:name="uz.gita.bookreading_john.presentation.screens.about.AboutBookScreen"
+        android:label="AboutBookScreen" >
+        <argument
+            android:name="bookData"
+            app:argType="uz.gita.bookreading_john.data.model.BookData" />
+    </fragment>
+    <fragment
+        android:id="@+id/recommendedScreen"
+        android:name="uz.gita.bookreading_john.presentation.screens.explore.RecommendedScreen"
+        android:label="RecommendedScreen" >
+        <action
+            android:id="@+id/action_recommendedScreen_to_aboutBookScreen"
+            app:destination="@id/aboutBookScreen" />
+    </fragment>
+</navigation>
